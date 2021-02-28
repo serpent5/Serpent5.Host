@@ -1,0 +1,11 @@
+name: build-dotnet
+on:
+  push:
+    branches:
+      - master
+jobs:
+  job-1:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - run: dotnet build -c Release
