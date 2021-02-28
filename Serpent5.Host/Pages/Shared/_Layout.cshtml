@@ -1,0 +1,42 @@
+@inject Microsoft.Extensions.Hosting.IHostEnvironment HostEnvironment
+
+@{
+  var htmlTitle = HostEnvironment.ApplicationName;
+  var viewTitle = @ViewData["Title"];
+
+  if (viewTitle is not null)
+  {
+    htmlTitle += " - " + viewTitle;
+  }
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>@htmlTitle</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-reboot.min.css" integrity="sha512-wV3xzHEw4kJUF4G0fyXSefKmUVhwwbOdZinJvOxmysxAXSZBl17porgPOcQBDBQTEwgGevxXGWAAQ/UPaSd0nw==" crossorigin="anonymous" />
+  <style>
+    :root {
+      font-size: 14px;
+    }
+
+    body {
+      background-color: #222;
+      color: #efefef;
+      font-family: roboto, sans-serif;
+      padding: 1rem 1.2rem;
+    }
+  </style>
+</head>
+
+<body>
+  @RenderBody()
+</body>
+
+</html>

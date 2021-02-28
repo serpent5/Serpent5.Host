@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03E0EC4E-15BA-4A38-B7B0-10E609DCA83A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serpent5.Host", "Serpent5.Host\Serpent5.Host.csproj", "{F8DC264B-3170-4A7F-BC23-6138EE64FA02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7652B769-2598-4459-8FB6-475C8E9E1CD2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Debug|x64.Build.0 = Debug|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Debug|x86.Build.0 = Debug|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Release|x64.ActiveCfg = Release|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Release|x64.Build.0 = Release|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Release|x86.ActiveCfg = Release|Any CPU
+		{F8DC264B-3170-4A7F-BC23-6138EE64FA02}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
